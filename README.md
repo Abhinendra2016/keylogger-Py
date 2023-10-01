@@ -12,24 +12,28 @@ This is a basic Python keylogger using the pynput library. It logs keyboard inpu
 
 Navigate to the project directory:
 
-   cd keylogger
+    cd keylogger
 
 Install the required library:
-    pip install pynput
-
-Usage
+            
+      pip install pynput
+## Usage
 
 Run the keylogger script:
 
-    python my_keylogger.py
+      python my_keylogger.py
 
 The keylogger will start recording keyboard input and save it to a file.
 
 To stop the keylogger, 
     press Ctrl+C in the terminal where it's running.
 
-Configuration
+## Configuration
 
-    You can configure the log directory by editing the log_dir variable in the my_keylogger.py script.
+You can configure the log directory by editing the log_dir variable in the my_keylogger.py script.
 
-log_dir = r"/path/to/your/log/folder/"
+      log_dir = r"/path/to/your/log/folder/"
+
+## Acknowledgments
+
+pynput library for keyboard input monitoring.
